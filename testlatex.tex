@@ -5,7 +5,7 @@
 %  as a reasonable and fully-featured default template
  
 %  Below define helpful commands to set up problem environments easily
-\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\newenvironment{definition}[2][Definition]{\begin{trivlist}
 \item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
 \newenvironment{solution}{\begin{proof}[Solution]}{\end{proof}}
  
@@ -15,25 +15,24 @@
  
 \begin{document}
  
-\title{Document X}
-\author{Jo Student}
-\affiliation{PHYS 220, Schmid College of Science and Technology, Chapman University}
+\title{Calculus}
+\author{Atabak Pouya}
+\affiliation{CS 510, Schmid College of Science and Technology, Chapman University}
 \date{\today}
 
 \maketitle
 
-\section{Section Title Here} % Specify main sections this way
+\section{Derivative} % Specify main sections this way
 
 % x.yz is the problem number
-\begin{problem}{x.yz} 
-Problem statement goes here.
-\end{problem}
+\begin{definition}{1.1} 
+The derivative of $f(x)$ with respect to $x$ is $f'(x)$ and defined as :
+\end{definition}
  
 \begin{solution} %You can also use proof in place of solution
 Treat equations as part of complete sentences.  For example, the Schr\"odinger equation can be written in the position representation as
 \begin{align}
-i\hbar \partial_t \psi(x,t) &= \hat{H}\psi(x,t) \\
-&= -\frac{\hbar^2}{2m}\nabla^2\psi(x,t) + V(x)\psi(x,t). \nonumber
+f'(x) = \lim_{x \rightarrow 0} \frac{f(x+h)-f(x)}{x+h}
 \end{align}
 % Use align environments for equations. The \\ is a newline character. The & is the alignment character.
 % Using align* or \nonumber on each line removes equation numbers
