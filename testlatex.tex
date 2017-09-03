@@ -25,30 +25,32 @@
 \section{Derivative} % Specify main sections this way
 
 % x.yz is the problem number
-\begin{definition}{1.1} 
+\begin{definition}{1.1}
 The derivative of $f(x)$ with respect to $x$ is $f'(x)$ and defined as :
 \end{definition}
  
-\begin{solution} %You can also use proof in place of solution
-Treat equations as part of complete sentences.  For example, the Schr\"odinger equation can be written in the position representation as
+\begin{proof} %You can also use proof in place of solution
+ derivative is the slope of a line at a specific point
 \begin{align}
-f'(x) = \lim_{x \rightarrow 0} \frac{f(x+h)-f(x)}{x+h}
+f'(x) = \lim_{x \rightarrow 0} \frac{f(x+\Delta{x})-f(x)}{\Delta{x}}
 \end{align}
+In this equation, we are saying
+find the slope of the tangent line between two points when you add almost zero to go from the first x value to the next.
 % Use align environments for equations. The \\ is a newline character. The & is the alignment character.
 % Using align* or \nonumber on each line removes equation numbers
-\end{solution}
+\end{proof}
 
-\subsection{Subsection Title Here} % Specify subsections and subsubsections this way
 
-Figures can be included easily.
+
+FIG. 1 illustrates the (1) on a curve.
 
 \begin{figure}[h!] % h forces the figure to be placed here, in the text
-  \includegraphics[width=0.4\textwidth]{stormtroopocat.jpg}  % if pdflatex is used, jpg, pdf, and png are permitted
-  \caption{The figure caption goes here.}
+  \includegraphics[width=0.4\textwidth]{Secant.png}  % if pdflatex is used, jpg, pdf, and png are permitted
+  \caption{Secant of line P.}
   \label{fig:figlabel}
 \end{figure}
 
-This text should be below the figure unless \LaTeX  decides that a different layout works better.
+Since $\Delta{x}$ is the variable that approaches 0, $x$ remains constant, and that limit will be a function of x.  Since it will be derived from $f(x)$, we call it the derived function or the derivative of $f(x)$
  
 % Repeat as needed
  
