@@ -1,6 +1,6 @@
 # CS510 CW 1
 
-**Author(s):** _\<your name(s)\>_
+**Author(s):** Atabak Pouya_
 
 ## Specification
 
@@ -13,7 +13,8 @@ Complete the following exercises, saving your solutions in the indicated files.
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
-**CHANGEME**
+Working with git version contro system, learn to clone, stage, commit and push changes to repository.
+Using Vim text editor to edit text files.
 
 ## Honor Pledge
 
@@ -24,4 +25,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+**Atabak Pouya**
